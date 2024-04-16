@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+.main-container {
+    margin-left: 5%;
+    margin-top: 2.5%;
+    color: #149414;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 200;
+}
+
+.header-container {
+    font-size: 100px;
+    margin-left: -0.5%;
+}
+
+.body-container {
+    font-size: 20px;
+    max-width: 80%;
+}
+
+.subheader {
+    font-size: 30px;
+    margin-bottom: 7.5px;
+}
+
+a {
+    color: #149414;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-container {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-container {
+        font-size: 50px;
+    }
+
+    .body-container {
+        font-size: 12.5px;
+    }
+
+    .main-container {
+        margin-left: 10%;
+        margin-top: 5%; 
+    }
+
+    .subheader {
+        font-size: 20px;
+    }
+}

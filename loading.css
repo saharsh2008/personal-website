@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+.loading-container {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #149414;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 200;
+    font-size: 30px;
+    max-width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .loading-container {
+        font-size: 15px;
+    }
+}
